@@ -1,0 +1,26 @@
+.Rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    animation: colorRotate 4s linear 0s infinite;
+  }
+  
+  @keyframes colorRotate {
+    from {
+      color: #ff0000;
+    }
+    10% {
+      color: #ea00ff;
+    }
+    50% {
+      color: #0231b4;
+    }
+    75% {
+      color: #00ff15;
+    }
+    100% {
+      color: #ffd900;
+    }
+  }
